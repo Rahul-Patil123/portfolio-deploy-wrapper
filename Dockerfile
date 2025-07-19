@@ -1,3 +1,5 @@
 FROM rahulpatil414/portfolio-site:latest
+
 EXPOSE 3000
-CMD ["npm", "run", "start"]
+
+CMD ["nginx", "-g", "daemon off;"]
